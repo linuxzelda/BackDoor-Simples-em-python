@@ -40,8 +40,8 @@ with open(my_file,"rb") as msg_data:
 
 x = 0
 while x < qtd_msg:
+    x = x + 1
     my_smtp.sendmail(my_email,lista,msg.as_string())
-    x = x + 1 
     print("Foram Enviados",x,"Emails")
 
 
