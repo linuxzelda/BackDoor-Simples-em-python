@@ -3,7 +3,7 @@ import urllib.request
 import urllib
 
 
-def my_crap():
+def my_test():
     my_str = re.compile(r"[\w+\d+]+@[gmail/hotmail/outlook/yahoo]+.com")
 
     my_site = "listadeemailmarketinggratis".split()
@@ -23,4 +23,4 @@ def my_crap():
                msg_data.write(my_result + "\n\t")
 
 if __name__ == '__main__':
-    my_crap()
+    my_test()
