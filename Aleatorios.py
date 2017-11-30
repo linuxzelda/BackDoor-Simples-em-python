@@ -29,8 +29,8 @@ try:
 
     my_smtp.login(my_email,my_pass)
     print("conectado com sucesso!!")
-except Exception as msg:
-    print(msg)
+except Exception as msg1:
+    print(msg1)
 
 my_file = "zelda.jpg" #aqui vc nforma o nome do arquivo e a extensão .png ou .jpg
 
